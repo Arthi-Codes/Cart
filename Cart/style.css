@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Responsive css for Smartphones*/
+@media screen and (max-width: 480px) {
+  .custom-line {
+    margin-top: 5%;
+    margin-left: -15%;
+    margin-bottom: 5%;
+    width: 93.996px;
+    height: 0.904px;
+    background: #c8c8c8;
+    border: none;
+  }
+  .hover-box {
+    border-radius: 3.615px;
+    cursor: pointer;
+    border: 0.904px solid #c8c8c8;
+    background: #fff;
+    width: 340.734px;
+    height: 74.112px;
+    flex-shrink: 0;
+    padding: 10px;
+    margin: 50px;
+    margin-left: -15%;
+    margin-top: -2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  .hover-box.clicked {
+    width: 340.734px;
+    height: 200.781px;
+    border-radius: 3.615px;
+    border: 0.904px solid #007f61;
+    background: #f4fbf9;
+    padding: 10px;
+    margin: 50px;
+    margin-left: -15%;
+    margin-top: -2%;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  .shipping {
+    color: #007f61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -70%;
+    white-space: nowrap;
+  }
+}
+/*Responsive css for Tablets*/
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 341px;
+    height: 48px;
+
+    border-radius: 4px 4px 4px 0px;
+    background: #007f61;
+    border: 0;
+    margin-top: 27%;
+    margin-left: -70%;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+/*Responsive css for Desktops & Laptops*/
+
+@media only screen and (min-width: 1200px) {
+  .custom-line {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    width: 93.996px;
+    height: 0.904px;
+    background: #c8c8c8;
+    border: none;
+  }
+  .button {
+    width: 341px;
+    height: 48px;
+
+    border-radius: 4px 4px 4px 0px;
+    background: #007f61;
+    border: 0;
+    margin-top: 27%;
+    margin-left: -85%;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .hover-box {
+    border-radius: 3.615px;
+    cursor: pointer;
+    border: 0.904px solid #c8c8c8;
+    background: #fff;
+    width: 340.734px;
+    height: 74.112px;
+    flex-shrink: 0;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 35%;
+    margin-top: -2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  .hover-box.clicked {
+    width: 340.734px;
+    height: 200.781px;
+    border-radius: 3.615px;
+    border: 0.904px solid #007f61;
+    background: #f4fbf9;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 35%;
+    margin-top: -2%;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  .shipping {
+    color: #007f61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 200%;
+    white-space: nowrap;
+  }
+}
+/*Hidden fieldset contains the fields which is to be hidden while loading*/
+#report1,
+#report2,
+#report3 {
+  display: none;
+}
+/*Most popular word used in second selection list*/
+.popular {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 12.653px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 70%;
+  margin-top: -23%;
+}
+/*Free Shipping styling*/
+.shipping {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 135%;
+  white-space: nowrap;
+}
+/*Total styling*/
+.total {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 195%;
+  white-space: nowrap;
+  margin-top: -4%;
+}
+/*Size and Colour for optionbox*/
+.size {
+  margin-left: 15%;
+  margin-top: 10;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*Optionbox used for dropdown listing*/
+.option-box {
+  width: 72.304px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+}
+/*hover-box is the box that contains every fields for pair1, pai2 & pair3*/
+.hover-box {
+  border-radius: 3.615px;
+  cursor: pointer;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  width: 340.734px;
+  height: 74.112px;
+  flex-shrink: 0;
+  padding: 10px;
+  margin: 50px;
+  margin-left: 33%;
+  margin-top: -2%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+/*footelement is used for sponsorship which is mentioned below footer*/
+.footelement {
+  display: flex;
+  margin-left: 30%;
+  margin-top: -5%;
+  margin-right: auto;
+  width: 3%;
+  align-items: center;
+}
+
+.hover-box.clicked {
+  width: 340.734px;
+  height: 200.781px;
+  border-radius: 3.615px;
+  border: 0.904px solid #007f61;
+  background: #f4fbf9;
+  padding: 10px;
+  margin: 50px;
+  margin-left: 33%;
+  margin-top: -2%;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+.hover-box:hover {
+  border-color: #cfcdcd;
+}
+.disable-hover:hover {
+  border-color: #007f61;
+}
+.option-box {
+  width: 72.304px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  margin: 5px;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*Radio Button colouring and styling and labeling properties given below*/
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14.461px;
+  height: 14.461px;
+  border: 1px solid rgba(26, 26, 26, 0.5);
+  border-radius: 100%;
+  background: #fff;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #007f61;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  border: 1px solid rgba(26, 26, 26, 0.32);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+input[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.radiotext {
+  color: #000000;
+  font-family: Metropolis;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 29px;
+  height: -10px;
+  padding: -20px;
+  text-align: center;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.radiobutton {
+  padding: 15px;
+  margin-left: 5px;
+}
+/*custom-line and customline1 is given for lines in the header*/
+.custom-line,
+.custom-line1,
+.heading {
+  display: inline-block;
+  vertical-align: middle; /* Optional: Align elements vertically */
+}
+.custom-line {
+  margin-top: 5%;
+  margin-left: 32%;
+  margin-bottom: 5%;
+  width: 93.996px;
+  height: 0.904px;
+  background: #c8c8c8;
+  border: none;
+}
+.custom-line1 {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  width: 93.996px;
+  height: 0.904px;
+  background: #c8c8c8;
+  border: none;
+}
+/*heading is used for Bundle & Save*/
+.heading {
+  margin-left: 2%;
+  font-family: Metropolis;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #007f61;
+}
+/*Percentage is used for Offer*/
+.percentage {
+  color: #000;
+  font-family: Metropolis;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 70%;
+  margin-top: -10%;
+  padding: 10px;
+}
+.percentage1 {
+  color: #000;
+  font-family: Metropolis;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 70%;
+  margin-top: -20%;
+  padding: 10px;
+}
+footer {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: -30%;
+}
+footer.span {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 60%;
+  font-size: 7.333px;
+  font-style: normal;
+}
+/*Add to Cart Button*/
+.button {
+  width: 341px;
+  height: 48px;
+
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+  border: 0;
+  margin-top: 27%;
+  margin-left: -93%;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+fieldset {
+  border: 0;
+}

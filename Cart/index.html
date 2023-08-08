@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Box Arrangement</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <hr class="custom-line" />
+        <p class="heading">Bundle & Save</p>
+        <hr class="custom-line1" />
+      </div>
+      <!-- Inside this div tag first box for pair is displayed and onclick function used for validation-->
+      <div class="hover-box" id="box1" onclick="showFields('box1')">
+        <div class="radiobutton">
+          <input
+            type="radio"
+            id="Pair1"
+            name="radio-group"
+            onclick="showFields('Pair1')"
+          />
+          <label for="Pair1" class="radiotext">
+            1 Pair<br />
+            DKK 195.00
+          </label>
+          <p class="percentage1">50% OFF</p>
+        </div>
+        <fieldset id="report1">
+          <div>
+            <span class="size">size</span>
+            <span class="size">colour</span>
+          </div>
+          <p>
+            #1
+            <select id="dropdown1" class="option-box">
+              <option value="option1">S</option>
+              <option value="option2">M</option>
+              <option value="option3">L</option>
+            </select>
+
+            <select id="dropdown1" class="option-box">
+              <option value="option1">Black</option>
+              <option value="option2">Red</option>
+              <option value="option3">White</option>
+            </select>
+          </p>
+        </fieldset>
+      </div>
+      <!-- Inside this div tag Second box for pair is displayed and onclick function used for validation-->
+      <div class="hover-box" id="box2" onclick="showFields('box2')">
+        <div class="radiobutton">
+          <input
+            type="radio"
+            id="Pair2"
+            name="radio-group"
+            onclick="showFields('Pair2')"
+          />
+          <label for="Pair2" class="radiotext">
+            2 Pair<br />
+            DKK 345.00
+          </label>
+          <p class="popular">Most Popular</p>
+          <br />
+          <p class="percentage">40% OFF</p>
+        </div>
+
+        <br />
+        <fieldset id="report2">
+          <span class="size">size</span>
+          <span class="size">colour</span>
+
+          <p>
+            #1
+            <select id="dropdown1" class="option-box">
+              <option value="option1">S</option>
+              <option value="option2">M</option>
+              <option value="option3">L</option>
+            </select>
+
+            <select id="dropdown1" class="option-box">
+              <option value="option1">Black</option>
+              <option value="option2">Red</option>
+              <option value="option3">White</option>
+            </select>
+          </p>
+          <p>
+            #2
+            <select id="dropdown1" class="option-box">
+              <option value="option1">S</option>
+              <option value="option2">M</option>
+              <option value="option3">L</option>
+            </select>
+
+            <select id="dropdown1" class="option-box">
+              <option value="option1">Black</option>
+              <option value="option2">Red</option>
+              <option value="option3">White</option>
+            </select>
+          </p>
+        </fieldset>
+      </div>
+      <!-- Inside this div tag Third box for pair is displayed and onclick function used for validation-->
+      <div class="hover-box" id="box3" onclick="showFields('box3')">
+        <div class="radiobutton">
+          <input
+            type="radio"
+            id="Pair3"
+            name="radio-group"
+            onclick="showFields('Pair3')"
+          />
+          <label for="Pair3" class="radiotext">
+            3 Pair<br />
+            DKK 528.00
+          </label>
+          <p class="percentage1">60% OFF</p>
+          <br />
+          <fieldset id="report3">
+            <span class="size">size</span>
+            <span class="size">colour</span>
+            <p>
+              #1
+              <select id="dropdown1" class="option-box">
+                <option value="option1">S</option>
+                <option value="option2">M</option>
+                <option value="option3">L</option>
+              </select>
+
+              <select id="dropdown1" class="option-box">
+                <option value="option1">Black</option>
+                <option value="option2">Red</option>
+                <option value="option3">White</option>
+              </select>
+            </p>
+            <p>
+              #2
+              <select id="dropdown1" class="option-box">
+                <option value="option1">S</option>
+                <option value="option2">M</option>
+                <option value="option3">L</option>
+              </select>
+
+              <select id="dropdown1" class="option-box">
+                <option value="option1">Black</option>
+                <option value="option2">Red</option>
+                <option value="option3">White</option>
+              </select>
+            </p>
+            <p>
+              #3
+              <select id="dropdown1" class="option-box">
+                <option value="option1">S</option>
+                <option value="option2">M</option>
+                <option value="option3">L</option>
+              </select>
+
+              <select id="dropdown1" class="option-box">
+                <option value="option1">Black</option>
+                <option value="option2">Red</option>
+                <option value="option3">White</option>
+              </select>
+            </p>
+          </fieldset>
+        </div>
+      </div>
+      <!--This is the below elements for Button and footer properties-->
+      <div class="footelement">
+        <p class="shipping">Free 2 Day Shipping</p>
+        <p class="total">Total :DKK 360.00</p>
+        <div>
+          <button class="button" id="myButton">+Add to Cart</button><br />
+          <footer><span class="span">@</span>powered by pumper</footer>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
